@@ -47,19 +47,7 @@ export const Footer = () => {
 
       <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
         <p className="text-sm font-light md:text-base md:font-normal">
-          Copyright &copy; {new Date().getFullYear()}{" "}
-          <Link
-            href="https://sanidhy.me"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-purple"
-          >
-            Sanidhya
-          </Link>{" "}
-          |{" "}
-          <Link href={links.sourceCode} className="underline">
-            Source Code
-          </Link>
+          Copyright &copy; {new Date().getFullYear()} Shubham Zende
         </p>
 
         <div className="flex items-center gap-6 md:gap-3">

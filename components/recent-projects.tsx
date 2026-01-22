@@ -70,18 +70,20 @@ export const RecentProjects = () => {
                     ))}
                   </div>
 
-                  <div className="flex items-center justify-center">
-                    <Link
-                      href={sourceCode}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="flex text-sm text-purple md:text-xs lg:text-xl"
-                    >
-                      Source Code
-                    </Link>
+                  {sourceCode && (
+                    <div className="flex items-center justify-center">
+                      <Link
+                        href={sourceCode}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="flex text-sm text-purple md:text-xs lg:text-xl"
+                      >
+                        Learn More
+                      </Link>
 
-                    <FaLocationArrow className="ms-3" color="#cbacf9" />
-                  </div>
+                      <FaLocationArrow className="ms-3" color="#cbacf9" />
+                    </div>
+                  )}
                 </div>
               </PinContainer>
             </div>

@@ -10,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize innovation and user-centric design",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -20,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Founder & Entrepreneur with a passion for tech",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -31,7 +31,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Always learning and evolving",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Full-Stack Developer passionate about creating impactful products.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -51,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building scalable solutions with modern technologies",
+    description: "Innovation in Progress",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -61,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Ready to collaborate on your next big project?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -74,67 +74,67 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "FigPro - Collaborative Design Tool",
-    des: "A collaborative design tool with real-time collaboration, vector editing, and a responsive UI.",
+    title: "AdMesh - In-Game Advertisement Platform",
+    des: "Co-founder of AdMesh, an innovative in-game advertisement platform with live interaction capabilities. Features patented technology for real-time engagement and token-based monetization system.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://clone-figmaa.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/figma-clone",
+    link: "https://admesh.cloud",
+    sourceCode: "https://admesh.cloud",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Sumachh - Fintech Startup",
+    des: "Founder of Sumachh, a fintech startup focused on delivering innovative financial solutions. Building scalable infrastructure with modern technologies.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://clone-yoom.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/zoom-clone",
+    link: "https://sumachh.com",
+    sourceCode: "https://sumachh.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Skipit - 1:1 Founder Meetings",
+    des: "Platform connecting founders and entrepreneurs for meaningful one-on-one conversations. Facilitating knowledge sharing and strategic partnerships in the startup ecosystem.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://ai-imaginify.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/imaginify",
+    link: "https://skipit.site",
+    sourceCode: "https://skipit.site",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Skipit - Connecting Innovators",
+    des: "A platform designed for founders to meet, collaborate, and build meaningful connections. Share insights, explore partnerships, and grow your network with like-minded entrepreneurs.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://app-iphone.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/apple-clone",
+    link: "https://skipit.site",
+    sourceCode: "https://skipit.site",
   },
 ] as const;
 
 export const testimonials = [
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `Working with ${links.ownerName} on AdMesh was an exceptional experience. His vision for in-game advertising is revolutionary, and his execution is flawless. His entrepreneurial mindset and technical expertise make him an invaluable partner. Highly recommended!`,
+    name: "Industry Partner",
+    title: "Gaming & Advertising Sector",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `${links.ownerName}'s work on our fintech platform was outstanding. His ability to translate complex financial requirements into elegant technical solutions is remarkable. His dedication to quality and innovation is truly inspiring.`,
+    name: "Business Stakeholder",
+    title: "Fintech Sector",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `As a co-founder, ${links.ownerName} brings both technical excellence and strategic vision. His patent for the AdMesh technology demonstrates his innovative thinking and attention to cutting-edge solutions.`,
+    name: "Technology Advisor",
+    title: "Digital Innovation",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `${links.ownerName}'s digital marketing campaigns transformed our online presence. His SEO expertise and strategic approach resulted in measurable improvements in our organic reach and engagement metrics.`,
+    name: "Marketing Director",
+    title: "E-Commerce",
   },
   {
-    quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `Working with ${links.ownerName} as a full-stack developer has been transformative. His attention to detail, problem-solving skills, and commitment to excellence set him apart. A true professional!`,
+    name: "Project Manager",
+    title: "Tech Innovation",
   },
 ] as const;
 
@@ -174,29 +174,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Founder - Sumachh",
+    desc: "Leading fintech startup with focus on innovative financial solutions. Building scalable infrastructure and managing strategic vision.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Co-Founder - AdMesh",
+    desc: "Pioneering in-game advertisement platform with live interaction capabilities. Patent holder for innovative monetization technology.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Founder - Skipit.site",
+    desc: "Building a platform that connects founders and entrepreneurs. Facilitating one-on-one meetings and strategic partnerships in the startup ecosystem.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Serial Entrepreneur",
+    desc: "Passionate about building innovative products and businesses. Focus on scaling startups and creating impactful solutions in the market.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -204,23 +204,18 @@ export const workExperience = [
 
 export const socialMedia = [
   {
-    name: "GitHub",
-    img: "/git.svg",
-    link: "https://github.com/sanidhyy",
+    name: "LinkedIn",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/shubham-zende-7697bb349",
   },
   {
     name: "Twitter",
     img: "/twit.svg",
-    link: "https://twitter.com/sanidhyyy",
-  },
-  {
-    name: "LinkedIn",
-    img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://twitter.com/shubhamzende",
   },
 ] as const;
 
 export const techStack = {
-  stack1: ["React.js", "Next.js", "Typescript"],
-  stack2: ["Vue.js", "AWS", "MongoDB"],
+  stack1: ["React.js", "Next.js", "TypeScript"],
+  stack2: ["Node.js", "MongoDB", "PostgreSQL"],
 } as const;
